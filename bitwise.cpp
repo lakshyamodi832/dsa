@@ -10,5 +10,10 @@ int main(){
 
     cout<<(a^b)<<endl;
 
+    int c = 3;
+
+    cout<<(c<<1)<<endl;
+    cout<<(10<<2)<<endl;
+
     return 0;
 }
