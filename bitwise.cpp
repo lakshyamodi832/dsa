@@ -15,5 +15,8 @@ int main(){
     cout<<(c<<1)<<endl;
     cout<<(10<<2)<<endl;
 
+    cout<<(c>>1)<<endl;
+    cout<<(8>>2)<<endl;
+
     return 0;
 }
