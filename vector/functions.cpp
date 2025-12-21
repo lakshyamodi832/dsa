@@ -35,5 +35,7 @@ int main(){
     
     cout<<(int)vec.front()<<endl;//25
 
+    cout<<(int)vec.back()<<endl;//35
+
     return 0;
 }
