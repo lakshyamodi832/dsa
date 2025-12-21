@@ -11,7 +11,7 @@ int main(){
     //     cout<<val<<endl;
     // }
 
-    vector<char>vec;
+    vector<int>vec;
 
     cout<<"size = "<<vec.size()<<endl;//0    
 
@@ -33,9 +33,9 @@ int main(){
     //     cout<<val<<endl;//25, 35, 45
     // }
     
-    cout<<(int)vec.front()<<endl;//25
+    cout<<vec.front()<<endl;//25
 
-    cout<<(int)vec.back()<<endl;//35
+    cout<<vec.back()<<endl;//35
 
     return 0;
 }
