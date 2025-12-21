@@ -20,7 +20,7 @@ int main(){
     vector<char>_vector = {'a', 'b', 'c', 'd', 'e'};
 
     for(char val : _vector){
-        cout<<val<<endl;
+        cout<<val<<endl;//a to z
     }
 
     return 0;
