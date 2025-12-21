@@ -21,17 +21,19 @@ int main(){
 
     cout<<"size after push back = "<<vec.size()<<endl;//3
 
-    for(int val : vec){
-        cout<<val<<endl;//25, 35
-    }
+    // for(int val : vec){
+    //     cout<<val<<endl;//25, 35
+    // }
 
     vec.pop_back();//45
 
     cout<<"size after pop back = "<<vec.size()<<endl;//3
 
-    for(int val : vec){
-        cout<<val<<endl;//25, 35, 45
-    }
+    // for(int val : vec){
+    //     cout<<val<<endl;//25, 35, 45
+    // }
+    
+    cout<<(int)vec.front()<<endl;//25
 
     return 0;
 }
