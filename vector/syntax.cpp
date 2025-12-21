@@ -10,12 +10,18 @@ int main(){
     // vector<int>vect = {1, 2, 3};
     // cout<<vect[0]<<endl;//1
 
-    vector<int>vecto(5, 2);
-    cout<<vecto[0]<<endl;//2
-    cout<<vecto[1]<<endl;//2
-    cout<<vecto[2]<<endl;//2
-    cout<<vecto[3]<<endl;//2
-    cout<<vecto[4]<<endl;//2
+    // vector<int>vecto(5, 2);
+    // cout<<vecto[0]<<endl;//2
+    // cout<<vecto[1]<<endl;//2
+    // cout<<vecto[2]<<endl;//2
+    // cout<<vecto[3]<<endl;//2
+    // cout<<vecto[4]<<endl;//2
+
+    vector<char>_vector = {'a', 'b', 'c', 'd', 'e'};
+
+    for(char val : _vector){
+        cout<<val<<endl;
+    }
 
     return 0;
 }
