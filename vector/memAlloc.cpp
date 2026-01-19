@@ -13,5 +13,11 @@ int main(){
     cout<<vec.size()<<endl;
     cout<<vec.capacity()<<endl;
 
+    vec.push_back(3);
+    vec.push_back(4);
+
+    cout<<vec.size()<<endl;
+    cout<<vec.capacity()<<endl;
+
     return 0;
 }
