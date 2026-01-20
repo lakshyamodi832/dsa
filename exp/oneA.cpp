@@ -12,7 +12,7 @@ int main(){
 
     int arr[] = {3, 9 , 1, 2, 6, 7, 4, 5, 8};
     int size = sizeof(arr);
-    int target = 10;
+    int target = 1;
 
     int index = linearSearch(arr, size, target);
 
